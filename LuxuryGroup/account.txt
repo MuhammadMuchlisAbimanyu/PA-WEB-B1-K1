@@ -1,0 +1,31 @@
+Admin :
+Username : dinda
+Password : 061
+
+Username : jerry
+Password : 067
+
+Username : muchlis
+Password : 069
+
+Username : admin
+Password : admin
+
+Customer :
+Username : customer
+Password : customer
+
+Username : ariels01
+Password : ariels01
+
+Username : samuell
+Password : samuell
+
+Username : herlandha
+Password : herlandha
+
+Hosting
+Luxuryygroups
+wjXaFsTE^W^&7qI8*aox
+USERNAME :epiz_32974143
+PASSWORD :r6YFf2v0gd4OR

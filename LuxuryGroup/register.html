@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
+    <title>Luxury Group</title>
+    <link rel='icon' href='image/icon/logo.ico'>
+    <link rel='stylesheet' href='css/style.css'>
+    <link rel='preconnect' href='https://fonts.googleapis.com'>
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+    <link href='https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <table>
+    <section class="register">
+        <div class="register-container">
+            <h1 class="register-title">Daftar Disini !</h1>
+            <div class='register-row'>
+                <div class='register-col'>
+                    <form action="register-proses.php" method="POST">
+                        <label class="register-sub-title">Username</label>
+                        <input class="register-form-element" type="text" name="username" placeholder="Masukkan username anda..." required>
+                        <label class="register-sub-title">Password</label>
+                        <input class="register-form-element" type="password" name="password" placeholder="Masukkan password anda..." required>
+                        <label class="register-sub-title">Confirm Password</label>
+                        <input class="register-form-element" type="password" name="cpassword" type="password" placeholder="Masukkan password anda..." required>
+                        <label class="register-sub-title">Nama</label>
+                        <input class="register-form-element" type="text" name="nama" placeholder="Masukkan nama anda..." required>
+                </div>
+                <div class='register-col'>
+                        <label class="register-sub-title">E-mail</label>
+                        <input class="register-form-element" type="email" name="email" placeholder="Masukkan e-mail anda..." required>
+                        <label class="register-sub-title">No. Telpon</label>
+                        <input class="register-form-element" type="number" name="no_telp" placeholder="Masukkan no. telpon anda..." required>
+                        <label class="register-sub-title">Alamat</label>
+                        <input class="register-form-element" type="text" name="alamat" placeholder="Masukkan alamat anda..." required>
+                </div>
+            </div>
+            <div class="register-form-button">
+                    <a href="index.php" class='back-button'>Kembali</a>
+                    <input class='register-button' type="submit" name="daftar" value="Daftar"> 
+                </form>                
+            </div>
+            <p class="register-login">Sudah punya akun? masuk <a href="login.html" class="register-login-link">disini</a></p>
+        </div>
+    </section>
+</table>
+</body>
+</html>
